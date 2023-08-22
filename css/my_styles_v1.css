@@ -1,0 +1,84 @@
+body {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    font-size: 1vw;
+}
+
+article {
+    /* padding: 0 13.5%; */
+    /* margin: 10px 10px 30px 10px; */
+}
+
+h2{
+    color:white;
+}
+
+.rectangle_black {
+    width: 50vw; /* Set width of the rectangle */
+    height: 20vw; /* Set height of the rectangle */
+    background-color: black; /* Background color of the rectangle */
+    justify-content: flex-start; /* Center horizontally within the black rectangle */
+    align-items: center; /* Center vertically within the black rectangle */
+}
+
+.rectangle_white {
+    width: 50vw; /* Set width of the rectangle */
+    height: 40vh; /* Set height of the rectangle */
+    background-color: white; /* Background color of the rectangle */
+}
+
+.rectangle_grey {
+    width: 50vw; /* Set width of the rectangle */
+    height: 5vh; /* Set height of the rectangle */
+    background-color: rgba(213, 208, 208, 0.991); /* Background color of the rectangle */
+}
+
+.profile_pic_img{
+    margin-left: 5%;
+    margin-top: 10%;
+    padding: 1% 1%;
+    border-width: 1%;
+    border-style: double;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile_description{
+    font-family: Verdana, sans-serif;
+    color:white;
+    text-align: center;
+    position: relative; /* Set position to absolute for precise positioning */
+    left: calc(1%); /* 30% width of the image + 10px offset */
+    bottom: 55%; /* Same as the top margin of the image */
+}
+
+.rectangle_grey_about{
+    width: 30vw; /* Set width of the rectangle */
+    height: 5vh; /* Set height of the rectangle */
+    margin-left:5%;
+    background-color: rgba(213, 208, 208, 0.991); /* Background color of the rectangle */
+    border-radius: 3%;
+}
+
+ul{
+    list-style-type: none;
+    position: relative; /* Set position to absolute for precise positioning */
+    left: calc(1%); /* 30% width of the image + 10px offset */
+}
+#about{
+    margin-top: 3%;
+    margin-left:10%;
+}
