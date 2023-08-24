@@ -3,6 +3,8 @@
   <head>
     <!-- This is your page title that appears on the browser window or tab -->
     <title>Unit Conversions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <section id="home">
@@ -39,7 +41,7 @@
           <label for="Temperature">Celsius</label> <br/>
           <input type="number" id="c"> <br/>
           <!-- The conversion button -->
-        <button id="temperature"> Convert </button> <br/>
+        <button id="temperature" onclick="temperature()"> Convert </button> <br/>
           <!-- Label for Temperature output -->
         <input type="number" id="f"> <br/>
         <label for="Temperature">Fahrenheit</label>
@@ -68,9 +70,9 @@
                 <legend>Weight</legend>
                 <!-- Label for Weight input -->
                 <label for="Weight">Kilograms</label> <br/>
-                <input type="number" id="kg"> <br/>
+                <input type="number" id="kgs"> <br/>
                 <!-- The conversion button -->
-                <button id="weight"> Convert </button> <br/>
+                <button id="weight" onclick="weight()"> Convert </button> <br/>
                 <!-- Label for Weight output -->
                 <input type="number" id="lbs"> <br/>
                 <label for="Weight">Pounds</label>
@@ -97,9 +99,9 @@
                  <label for="Distance">Kilometers</label> <br/>
                  <input type="number" id="km"> <br/>
                  <!-- The conversion button -->
-                 <button id="distance"> Convert </button> <br/>
+                 <button id="distance" onclick="distance()"> Convert </button> <br/>
                  <!-- Label for Distance output -->
-                 <input type="number" id="m"> <br/>
+                 <input type="number" id="miles"> <br/>
                  <label for="Distance">Miles</label>
              </fieldset>
          </article>
